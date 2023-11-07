@@ -6,13 +6,11 @@ use App\Models\User;
 use App\Models\Post;
 use Illuminate\Database\Seeder;
 
-// php artisan migrate:fresh --seed
+/*
+php artisan migrate:fresh --seed
+*/
 class DatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     * @return void
-     */
     public function run(): void
     {
         User::factory()->create([
